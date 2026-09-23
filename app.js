@@ -3,7 +3,7 @@ const recordBtn = document.getElementById('recordBtn');
 const statusDiv = document.getElementById('status');
 
 // Replace with your deployed Google Apps Script Web App URL
-const SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL';
+const SCRIPT_URL = 'https://script.google.com/a/macros/sfusd.edu/s/AKfycbxOV029qX2Tax3c47E1S2A-eq_hdj9KsWN6X_2j6qSjzXho9noRgyiJuDDL2jePzvMY/exec';
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 

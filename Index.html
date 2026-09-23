@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Typing to Apps Script</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        textarea { width: 100%; height: 150px; font-size: 16px; padding: 10px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; margin-top: 10px; }
+        #status { font-style: italic; color: #555; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Voice Typing App</h2>
+    <textarea id="textBox" placeholder="Click 'Start Recording' and start speaking..."></textarea>
+    <br>
+    <button id="recordBtn">Start Recording</button>
+    <div id="status">Status: Idle</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
